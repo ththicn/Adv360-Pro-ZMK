@@ -1,3 +1,9 @@
+macro_altctrl: macro_altctrl{
+compatible = "zmk,behavior-macro";
+label = "macro_altctrl";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp RIGHT_CONTROL>;
+};
 macro_cmdspace: macro_cmdspace{
 compatible = "zmk,behavior-macro";
 label = "macro_cmdspace";
