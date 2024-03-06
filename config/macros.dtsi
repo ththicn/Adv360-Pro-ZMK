@@ -1,3 +1,9 @@
+macro_shftcmdspc: macro_shftcmdspc{
+compatible = "zmk,behavior-macro";
+label = "macro_shftcmdspc";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&sk LEFT_COMMAND>, <&kp SPACE>;
+};
 macro_altctrl: macro_altctrl{
 compatible = "zmk,behavior-macro";
 label = "macro_altctrl";
