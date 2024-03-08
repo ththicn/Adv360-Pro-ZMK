@@ -1,3 +1,15 @@
+macro_altb: macro_altb{
+compatible = "zmk,behavior-macro";
+label = "macro_altb";
+#binding-cells = <0>;
+bindings = <&sk RIGHT_ALT>, <&kp B>;
+};
+macro_altf: macro_altf{
+compatible = "zmk,behavior-macro";
+label = "macro_altf";
+#binding-cells = <0>;
+bindings = <&sk RIGHT_ALT>, <&kp F>;
+};
 macro_shftcmdspc: macro_shftcmdspc{
 compatible = "zmk,behavior-macro";
 label = "macro_shftcmdspc";
